@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Criar dinamicamente as imagens
     for (let i = 1; i <= totalImages; i++) {
         let img = document.createElement("img");
-        img.src = `img/nois${i}.jpg`; // Nome das imagens gerado automaticamente
+        img.src = `../img/nois${i}.jpg`; // Nome das imagens gerado automaticamente
         img.alt = `Imagem ${i}`;
         container.appendChild(img);
     }
